@@ -5,7 +5,12 @@ a = Analysis(
     ['src/__main__.py'],
     pathex=[],
     binaries=[],
-    datas=[('models', 'models'), ('data', 'data')],
+    datas=[
+    ('models', 'models'),
+    ('data', 'data'),
+    ('config.json', '.'),
+    ('results','results'),
+    ],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},
