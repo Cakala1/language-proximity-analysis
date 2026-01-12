@@ -9,6 +9,7 @@ a = Analysis(
     ('models', 'models'),
     ('data', 'data'),
     ('config.json', '.'),
+    ('results','results'),
     ],
     hiddenimports=[],
     hookspath=[],
