@@ -276,7 +276,6 @@ def app():
     jezyki = [
         ("Angielski", "en"),
         ("Polski", "pl"),
-        ("Niemiecki", "de"),
         ("Francuski", "fr"),
         ("Hiszpański", "es"),
         ("Włoski", "it"),
